@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("/fonts/Montserrat-VF.woff2") format("woff2"),
+      url("/fonts/Montserrat-VF.ttf") format("truetype");
+    font-weight: 500;
+  }
+  /* @font-face {
+    font-family: "Montserrat";
+    src: url("/fonts/Montserrat-SemiBold.woff2") format("woff2"),
+      url("/fonts/Montserrat-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+  } */
