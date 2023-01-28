@@ -4,7 +4,7 @@ import "./fonts.css";
 export const MenuItemUI = styled.a`
   font-family: "Montserrat", "Verdana", sans-serif;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 1;
   color: ${({ theme }) => theme.color?.text ?? "#3E3B2D"};
   cursor: pointer;
   transition: 200ms ease-out;

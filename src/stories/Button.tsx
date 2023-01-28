@@ -23,6 +23,8 @@ interface ButtonProps {
    * Optional click handler
    */
   onClick?: () => void;
+
+  cn?: string;
 }
 
 /**
@@ -33,6 +35,7 @@ export const Button = ({
   size = "small",
   dashed = false,
   label,
+  cn,
   ...props
 }: ButtonProps) => {
   const mode = primary ? "button--primary" : "button--secondary";
@@ -40,7 +43,7 @@ export const Button = ({
   return (
     <ButtonUI
       type="button"
-      className={["button", `button--${size}`, mode, dashes].join(" ")}
+      className={["button", `button--${size}`, cn, mode, dashes].join(" ") + " "}
       {...props}
     >
       {label}
